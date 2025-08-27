@@ -14,7 +14,7 @@ export const aj = arcjet({
             mode: "LIVE", // Blocks requests. Use "DRY_RUN" to log only
             // Block all bots except the following
             allow: [
-                "CATEGORY:SEARCH_ENGINE", // Google, Bing, etc
+                "CATEGORY:SEARCH_ENGINE","POSTMAN" // Google, Bing, etc
             ],
         }),
         // Create a token bucket rate limit. Other algorithms are supported.
